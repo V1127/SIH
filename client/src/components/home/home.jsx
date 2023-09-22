@@ -1,10 +1,13 @@
 import React from "react";
+import Button from "../Button/Button";
+import "../style.css"
 
 const Home = () => {
   return (
     <div>
       <h1>Welcome to the Home Page</h1>
-      <p>This is the home page content.</p>
+      <h2>Click the button below to scrap Latest News</h2>
+      <Button />
     </div>
   );
 };
